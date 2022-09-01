@@ -1,1 +1,1 @@
-Display current directory contents, including hidden files (starting with .). Use the long format
+mv /tmp/betty /tmp/my_first_directory

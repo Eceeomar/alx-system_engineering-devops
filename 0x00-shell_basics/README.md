@@ -1,1 +1,1 @@
-mv /tmp/betty /tmp/my_first_directory
+Delete the file betty.

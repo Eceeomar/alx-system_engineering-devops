@@ -1,2 +1,2 @@
 #!/bin/bash
-pprintf "%x\n" $DECIMA
+printf "%x\n" $DECIMA

@@ -1,1 +1,1 @@
-solutions to the 0x0C. Web server task
+Solution to the 0x0C-web_server

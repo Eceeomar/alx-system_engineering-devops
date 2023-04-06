@@ -1,4 +1,11 @@
 #!/usr/bin/env bash
-#created a symbolic link to connect config files seeing that it was listening from different ports, just so it listening to port 80
-sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-sudo service nginx restarti
+# Script that sets the port 80
+
+# remove existing file
+sudo rm /etc/nginx/sites-enabled/default
+
+# link the deault file in sites available with sites enabled
+sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
+
+# restart nginx
+sudo service nginx restart

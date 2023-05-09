@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """number_of_subscribers(subreddit)"""
 
+
 def get_subreddit_subscribers(subreddit):
     """Queries the Reddit API and returns the number of subscribers
     to the subreddit"""
@@ -14,4 +15,3 @@ def get_subreddit_subscribers(subreddit):
         return 0
 
     return response.json().get("data").get("subscribers")
-
